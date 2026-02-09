@@ -1,2 +1,6 @@
 # FORMAT (You can generate one using the OpenAI)
-OPENAI_API_KEY=your-key 
+# On BackEnd Session
+OPENAI_API_KEY=your-key     
+
+# On FrontEnd Session (We are Hardcoding It, Only for running this on Local. We will not be doing this when, we are dockerizing the Application)
+NEXT_PUBLIC_API_BASE_URL=http://Public_IP:8000
